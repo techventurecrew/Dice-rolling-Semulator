@@ -13,12 +13,12 @@ Option to roll again or exit
 
 Code 
 
-import random
+     import random
 
-def roll_dice():
+    def roll_dice():
     return random.randint(1, 6)
 
-def main():
+    def main():
     print("Welcome to the Dice Rolling Simulator!")
     
     while True:
@@ -31,6 +31,6 @@ def main():
             print("Thank you for playing!")
             break
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     main()
     
